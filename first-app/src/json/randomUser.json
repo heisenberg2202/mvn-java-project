@@ -1,0 +1,66 @@
+{
+    "results": [
+        {
+            "gender": "male",
+            "name": {
+                "title": "Mr",
+                "first": "Fernando",
+                "last": "Zarate"
+            },
+            "location": {
+                "street": {
+                    "number": 3407,
+                    "name": "Avenida Riojas"
+                },
+                "city": "Yustis",
+                "state": "Colima",
+                "country": "Mexico",
+                "postcode": 38005,
+                "coordinates": {
+                    "latitude": "22.4407",
+                    "longitude": "-99.0596"
+                },
+                "timezone": {
+                    "offset": "+1:00",
+                    "description": "Brussels, Copenhagen, Madrid, Paris"
+                }
+            },
+            "email": "fernando.zarate@example.com",
+            "login": {
+                "uuid": "4f751f44-a924-4ac4-a882-1fb552451dcf",
+                "username": "orangecat184",
+                "password": "luan",
+                "salt": "MLisOUqj",
+                "md5": "2fb5b39faf8525bbbf34a6457b3da893",
+                "sha1": "073c96d43e468a4c102e125add8ac5e4118271a4",
+                "sha256": "c0e3bc53c8ec9e53da908955d33d1340fd78a6699cbb46f96f63c78ece6e8fa4"
+            },
+            "dob": {
+                "date": "2000-01-30T01:28:40.952Z",
+                "age": 23
+            },
+            "registered": {
+                "date": "2016-08-02T00:00:22.447Z",
+                "age": 6
+            },
+            "phone": "(631) 231 8795",
+            "cell": "(640) 640 7772",
+            "id": {
+                "name": "NSS",
+                "value": "84 01 79 0005 7"
+            },
+            "picture": {
+                "large": "https://randomuser.me/api/portraits/men/33.jpg",
+                "medium": "https://randomuser.me/api/portraits/med/men/33.jpg",
+                "thumbnail": "https://randomuser.me/api/portraits/thumb/men/33.jpg"
+            },
+            "nat": "MX"
+        }
+    ],
+    "info": {
+        "seed": "7d46b2b0b7e40093",
+        "results": 1,
+        "page": 1,
+        "version": "1.4"
+    }
+}
