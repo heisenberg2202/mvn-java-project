@@ -1,36 +1,9 @@
 package com.example;
 
 import java.util.HashMap;
-class Student{
-    int id;
-    String fName;
-    String lName;
 
-    public Student(int id, String fName, String lName) {
-        this.id = id;
-        this.fName = fName;
-        this.lName = lName;
-    }
-    public int getId() {
-        return id;
-    }
-    public void setId(int id) {
-        this.id = id;
-    }
-    public String getfName() {
-        return fName;
-    }
-    public void setfName(String fName) {
-        this.fName = fName;
-    }
-    public String getlName() {
-        return lName;
-    }
-    public void setlName(String lName) {
-        this.lName = lName;
-    }
-    
-}
+
+
 public class MapExamples {
     public static void main(String[] args) {
         HashMap<Integer, Student> map = new HashMap<>();
@@ -44,8 +17,7 @@ public class MapExamples {
         map.put(s4.getId(), s4);
 
         Student s0 = map.get(12345);
-        
+        System.out.println(s0.getfName() + " " + s0.getlName());
 
-        
     }
 }

@@ -7,7 +7,7 @@ import com.fasterxml.jackson.databind.JsonMappingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
 
 public class JSONfromBean {
-
+        //Conver json data to bean 
     public static void main(String[] args)  {
         ObjectMapper mapper = new ObjectMapper();
         Example result;
