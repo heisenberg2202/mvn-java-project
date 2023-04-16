@@ -8,13 +8,8 @@ import java.net.http.HttpResponse;
 import java.net.http.HttpResponse.BodyHandlers;
 import java.util.Arrays;
 import java.util.List;
-
-import org.json.simple.JSONArray;
-import org.json.simple.JSONObject;
-
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.google.gson.Gson;
 
 public class HTTPClient {
 
@@ -45,6 +40,11 @@ public class HTTPClient {
         // Print the title field of the first object
         String title = todosList.get(0).getTitle();
         System.out.println(title);
+
+        for (Todos td: todosList){
+            System.out.println(td.getTitle());
+            System.out.println(td.getUserId());
+        }
 
     }
 
